@@ -28,6 +28,10 @@ module.exports = {
       chainId: 31337,
       blockConfirmations: 1,
     },
+    localhost: {
+      chainId: 31337,
+      blockConfirmations: 1,
+    },
     rinkeby: {
       url: RINKEBY_URL,
       accounts: PRIVATE_KEY !== undefined ? [PRIVATE_KEY] : [],
